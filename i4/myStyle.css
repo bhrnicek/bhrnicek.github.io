@@ -1,0 +1,149 @@
+* {
+  color: #ffffff;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+.outline-font, p {
+  color: #ffffff;
+  text-shadow:
+    -1px -1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px 1px 0 #000000,
+    1px 1px 0 #000000;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  width: 300px;
+  height: 500px;
+  background-color: rgba(51, 51, 51, 0.9);
+  padding: 50px;
+  border-radius: 20px;
+}
+
+.left-box {
+  align-self: flex-start;
+}
+
+.middle-box {
+  align-self: center;
+}
+
+.right-box {
+  align-self: flex-end;
+}
+
+
+.chatbox {
+  width: 350px;
+  height: 200px;
+  background-color: #f0f0f0;
+  padding: 10px;
+  overflow: auto;
+}
+
+.message {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+
+
+.links {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+    margin-left: 1em;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img.icon {
+    display: inline-block;
+    height: 1em;
+    margin: 0 0 -0.1em 0.3em;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
+.whitebox {
+margin-left: auto;
+margin-right: auto;
+text-align:center;
+width:500px;
+background-color: #DDA15E;
+}
+.navbox {
+margin-left: auto;
+margin-right: auto;
+width:auto;
+background-color: #333;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float:left;
+}
+
+li a{
+    display:block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    }
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
